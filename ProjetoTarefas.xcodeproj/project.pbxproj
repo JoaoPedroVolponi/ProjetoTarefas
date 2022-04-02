@@ -17,6 +17,8 @@
 		11C5E96727F7E3210098651B /* ProjetoTarefasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5E96627F7E3210098651B /* ProjetoTarefasTests.swift */; };
 		11C5E97127F7E3210098651B /* ProjetoTarefasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5E97027F7E3210098651B /* ProjetoTarefasUITests.swift */; };
 		11C5E97327F7E3210098651B /* ProjetoTarefasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5E97227F7E3210098651B /* ProjetoTarefasUITestsLaunchTests.swift */; };
+		11CAEDBA27F8F31100B52224 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CAEDB927F8F31100B52224 /* TableViewController.swift */; };
+		11CAEDBC27F8F35600B52224 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11CAEDBB27F8F35600B52224 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		11C5E96C27F7E3210098651B /* ProjetoTarefasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjetoTarefasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11C5E97027F7E3210098651B /* ProjetoTarefasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjetoTarefasUITests.swift; sourceTree = "<group>"; };
 		11C5E97227F7E3210098651B /* ProjetoTarefasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjetoTarefasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		11CAEDB927F8F31100B52224 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		11CAEDBB27F8F35600B52224 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				11C5E95A27F7E3210098651B /* LaunchScreen.storyboard */,
 				11C5E95D27F7E3210098651B /* Info.plist */,
 				11C5E95527F7E3200098651B /* ProjetoTarefas.xcdatamodeld */,
+				11CAEDBB27F8F35600B52224 /* LoginViewController.swift */,
+				11CAEDB927F8F31100B52224 /* TableViewController.swift */,
 			);
 			path = ProjetoTarefas;
 			sourceTree = "<group>";
@@ -261,9 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11CAEDBC27F8F35600B52224 /* LoginViewController.swift in Sources */,
 				11C5E95727F7E3200098651B /* ProjetoTarefas.xcdatamodeld in Sources */,
 				11C5E95127F7E3200098651B /* ViewController.swift in Sources */,
 				11C5E94D27F7E3200098651B /* AppDelegate.swift in Sources */,
+				11CAEDBA27F8F31100B52224 /* TableViewController.swift in Sources */,
 				11C5E94F27F7E3200098651B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

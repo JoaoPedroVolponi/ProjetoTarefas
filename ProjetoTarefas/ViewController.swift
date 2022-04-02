@@ -1,21 +1,17 @@
-//
-//  ViewController.swift
-//  ProjetoTarefas
-//
-//  Created by user213528 on 4/1/22.
-//
+
 
 import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var senhaTextField: UITextField!
+    @IBOutlet weak var usuarioTextField: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-    //testeee
-        // Do any additional setup after loading the view.
-    }
     
-
-
+    print(usuarioTextField)
+    print(senhaTextField)
+    }
 }
 
